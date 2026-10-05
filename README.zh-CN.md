@@ -92,9 +92,9 @@
 <td width="620">关节模组：驱动器原理图、PCB 走线、Gerber、固件与上位机。</td>
 </tr>
 <tr>
-<td align="center" width="200"><img src="assets/readme/rp1-hand.gif" alt="RP1 快换末端灵巧手（RP-hand）" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP-hand"><strong>RP-hand</strong></a></td>
-<td width="620">灵巧手：用户手册与上位机。</td>
+<td align="center" width="200"><img src="assets/readme/rp1-hand.gif" alt="RP Hand 灵巧手在 RP1 上的快换安装" width="200"></td>
+<td width="150"><a href="https://github.com/Roboparty/rp_dexhand"><strong>rp_dexhand</strong></a></td>
+<td width="620">RP Hand 灵巧手：产品与接线手册、CAN-FD 快速上手、Python/C++ SDK 接入、ROS 2 兼容说明及模型与软件资源入口。</td>
 </tr>
 </table>
 
