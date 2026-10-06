@@ -92,9 +92,9 @@ The platform brings mechanical and electrical design, joint modules, firmware, r
 <td width="620">Joint modules: driver schematics, PCB layouts, Gerber files, firmware and host tools.</td>
 </tr>
 <tr>
-<td align="center" width="200"><img src="assets/readme/rp1-hand.gif" alt="RP1 quick-swap end effector hand (RP-hand)" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP-hand"><strong>RP-hand</strong></a></td>
-<td width="620">Dexterous hands: user manuals and host tools.</td>
+<td align="center" width="200"><img src="assets/readme/rp1-hand.gif" alt="RP Hand quick-swap dexterous hand on RP1" width="200"></td>
+<td width="150"><a href="https://github.com/Roboparty/rp_dexhand"><strong>rp_dexhand</strong></a></td>
+<td width="620">RP Hand: product and wiring guides, CAN-FD quick start, Python/C++ SDK integration, ROS 2 compatibility, and model and software resource links.</td>
 </tr>
 </table>
 
