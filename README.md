@@ -112,6 +112,16 @@ See the description repository for model files and currently supported configura
 
 </details>
 
+### Supply Chain
+
+<table width="100%">
+<tr>
+<td align="center" width="200"><img src="assets/readme/rp1-supplychain.svg" alt="Supply-chain know-how: selection, where it is used, gates and acceptance" width="200"></td>
+<td width="150"><a href="https://github.com/Taicushier-0212/rp-supplychain-knowhow"><strong>RP_supplychain</strong></a></td>
+<td width="620">Humanoid supply-chain know-how: what each part is, where it is used, how to choose and inspect it, plus gates and acceptance criteria.</td>
+</tr>
+</table>
+
 ### Firmware & Deployment
 
 <table width="100%">
@@ -190,6 +200,7 @@ See the description repository for model files and currently supported configura
 | Your starting point | Where to go |
 | :--- | :--- |
 | **Understand the platform** | [Documentation & know-how](https://roboparty.com/docs) |
+| **Review the supply chain** | [Component know-how & gates](https://github.com/Taicushier-0212/rp-supplychain-knowhow) |
 | **Build the hardware** | [Design files & assembly](https://github.com/Roboparty/RP1_hardware) · [Joint modules](https://github.com/orgs/Roboparty/teams/romomo) |
 | **Work with robot models** | [URDF, MJCF & 3D assets](https://github.com/Roboparty/RP1_description) |
 | **Connect and deploy** | [Firmware & BSP](https://github.com/Roboparty/RP1_firmware) · [Deployment](https://github.com/Roboparty/RP1_deploy) |

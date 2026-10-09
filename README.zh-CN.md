@@ -112,6 +112,16 @@
 
 </details>
 
+### 供应链
+
+<table width="100%">
+<tr>
+<td align="center" width="200"><img src="assets/readme/rp1-supplychain.svg" alt="供应链 Knowhow：选型、用在哪、Gate 与验收" width="200"></td>
+<td width="150"><a href="https://github.com/Taicushier-0212/rp-supplychain-knowhow"><strong>RP_supplychain</strong></a></td>
+<td width="620">人形机器人供应链 Knowhow：元器件是什么、用在哪、怎么选、怎么验，以及 Gate 与验收口径。</td>
+</tr>
+</table>
+
 ### 固件与部署
 
 <table width="100%">
@@ -190,6 +200,7 @@
 | 你想做什么 | 推荐入口 |
 | :--- | :--- |
 | **了解平台** | [开发文档与 Know-how](https://roboparty.com/docs) |
+| **看供应链** | [元器件 Knowhow 与 Gate](https://github.com/Taicushier-0212/rp-supplychain-knowhow) |
 | **构建硬件** | [设计文件与装配](https://github.com/Roboparty/RP1_hardware) · [关节模组](https://github.com/orgs/Roboparty/teams/romomo) |
 | **使用机器人模型** | [URDF、MJCF 与 3D 资源](https://github.com/Roboparty/RP1_description) |
 | **连接与部署** | [固件与 BSP](https://github.com/Roboparty/RP1_firmware) · [运行部署](https://github.com/Roboparty/RP1_deploy) |
