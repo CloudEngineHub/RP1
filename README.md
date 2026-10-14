@@ -7,11 +7,11 @@
 <a href="https://roboparty.com">
   <picture>
     <source media="(max-width: 640px)" srcset="assets/readme/hero-en-mobile.jpg">
-    <img src="assets/readme/hero-en.jpg" alt="RoboParty RP1. Fully open-source humanoid platform. Open hardware. Open intelligence. RP1 photographed in motion." width="100%">
+    <img src="assets/readme/hero-en.jpg" alt="RoboParty RP1. Fully open-source humanoid platform." width="100%">
   </picture>
 </a>
 
-<h1 align="center">RP1 · Fully Open-Source Humanoid</h1>
+<h1 align="center">RP1: An OpenSource Full-Stack Platform for Agentic Humanoids</h1>
 
 <p align="center">
   From mechanical design and electronics to firmware, control and learning.<br>
@@ -19,16 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://roboparty.com"><strong>Website</strong></a> &nbsp; · &nbsp;
-  <a href="https://roboparty.com/docs"><strong>Documentation</strong></a> &nbsp; · &nbsp;
-  <a href="#repositories"><strong>Repositories</strong></a> &nbsp; · &nbsp;
-  <a href="#community"><strong>Community</strong></a>
-</p>
-
-<p align="center">
-  <a href="#learning"><img src="https://img.shields.io/badge/Algorithm-BeyondMimic-2950D9?style=flat-square" alt="Algorithm: BeyondMimic" height="20"></a>
-  <a href="#learning"><img src="https://img.shields.io/badge/Algorithm-MiniCLite-007F86?style=flat-square" alt="Algorithm: MiniCLite" height="20"></a>
-  <a href="#learning"><img src="https://img.shields.io/badge/Algorithm-UFO-27804A?style=flat-square" alt="Algorithm: UFO" height="20"></a>
+  <a href="https://roboparty.com"><img src="https://img.shields.io/badge/Website-RoboParty-2563EB?style=flat-square&labelColor=6B7280" alt="Website: RoboParty"></a>
 </p>
 
 ---
@@ -39,20 +30,16 @@
 
 The platform brings mechanical and electrical design, joint modules, firmware, robot models, deployment and learning into one connected development stack. Explore a single subsystem, reproduce a build, or develop your own control and learning workflows.
 
-<table width="100%">
-<tr>
-<td width="33%"><strong>Hardware you can inspect</strong></td>
-<td width="33%"><strong>Software you can extend</strong></td>
-<td width="33%"><strong>Intelligence you can explore</strong></td>
-</tr>
-<tr>
-<td width="33%">Mechanical CAD, schematics, PCB layouts, Gerber files, BOM and assembly documentation.</td>
-<td width="33%">Linux BSP, communication, device interfaces, robot descriptions and deployment modules.</td>
-<td width="33%">Locomotion training, motion imitation, tracking and behavior-model projects.</td>
-</tr>
+<table width="999">
+<thead>
+<tr><th align="left" width="333">Hardware you can inspect</th><th align="left" width="333">Software you can extend</th><th align="left" width="333">Intelligence you can explore</th></tr>
+</thead>
+<tbody>
+<tr><td valign="top" width="333">Mechanical CAD, schematics, PCB layouts, Gerber files, BOM and assembly documentation.</td><td valign="top" width="333">Linux BSP, communication, device interfaces, robot descriptions and deployment modules.</td><td valign="top" width="333">Locomotion training, motion imitation, tracking and behavior-model projects.</td></tr>
+</tbody>
 </table>
 
-<img src="assets/readme/rp1-gallery.gif" alt="RP1 product portrait alongside an on-set photograph of RP1 stepping across raised platforms." width="100%">
+<img src="assets/readme/rp1-box-vault-hq.gif" alt="RP1 vaulting over a box" width="100%">
 
 <p align="center"><sub>RP1, photographed in the real world.</sub></p>
 
@@ -63,120 +50,71 @@ The platform brings mechanical and electrical design, joint modules, firmware, r
 <img src="docs/assets/architecture-en.svg#gh-light-mode-only" alt="RP1 control architecture: input / perception → motion control base (motion retargeting, motion policies) → real-time control (action decoding + serial-link solving at 500 Hz) → whole-body execution (ROMOMO joint modules, RP-hand), with an E-stop and a high-frequency feedback loop." width="100%">
 <img src="docs/assets/architecture-en-dark.svg#gh-dark-mode-only" alt="RP1 control architecture: input / perception → motion control base (motion retargeting, motion policies) → real-time control (action decoding + serial-link solving at 500 Hz) → whole-body execution (ROMOMO joint modules, RP-hand), with an E-stop and a high-frequency feedback loop." width="100%">
 
-**No black boxes, nothing withheld — full control handed back to the developer.**
+<p align="center"><strong>No black boxes, nothing withheld — full control handed back to the developer</strong></p>
 
 <a id="repositories"></a>
 
 ## Explore the Repositories
 
 > Release contents, supported configurations and setup instructions are maintained in each repository.
+>
+> Contributions belong in the relevant sub-repository. This overview repository does not accept pull requests; please open issues and pull requests in the project you are working on.
 
-### Hardware & Robot Models
+### Hardware & Tools
 
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-hardware.gif" alt="RP1 humanoid hardware" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_hardware"><strong>RP1_hardware</strong></a></td>
-<td width="620">Mechanical source files, electrical topology, schematics, PCB layouts, Gerber files, wiring, thermal design, testing and SOP assembly guides.</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-description.gif" alt="Sixteen humanoid robot models / 3D assets" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_description"><strong>RP1_description</strong></a></td>
-<td width="620">Robot descriptions and geometry: URDF, MJCF and 3D assets; robot and RPhand configurations.</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-romomo.gif" alt="ROMOMO joint module internals" width="200"></td>
-<td width="150"><a href="https://github.com/orgs/Roboparty/teams/romomo"><strong>ROMOMO</strong></a></td>
-<td width="620">Joint modules: driver schematics, PCB layouts, Gerber files, firmware and host tools.</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-hand.gif" alt="RP Hand quick-swap dexterous hand on RP1" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/rp_dexhand"><strong>RP-hand</strong></a></td>
-<td width="620">RP Hand: product and wiring guides, CAN-FD quick start, Python/C++ SDK integration, ROS 2 compatibility, and model and software resource links.</td>
-</tr>
+<table width="1000">
+<thead>
+<tr><th align="left" width="250">Repository</th><th align="left" width="750">Description</th></tr>
+</thead>
+<tbody>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp1_hardware"><strong>rp1_hardware</strong></a></td><td valign="middle" width="750">Mechanical source files, electronics, testing and assembly SOPs.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/ROMOMO"><strong>ROMOMO</strong></a></td><td valign="middle" width="750">Joint modules, firmware and host tools.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp_dexhand"><strong>RP-hand</strong></a></td><td valign="middle" width="750">Dexterous hand wiring, CAN-FD communication and SDK integration.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp1_test"><strong>RP1_TEST</strong></a></td><td valign="middle" width="750">RP1 full-machine testing.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robot_supplychain"><strong>robot_supplychain</strong></a></td><td valign="middle" width="750">Component selection, inspection, quality gates and acceptance.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_joystick"><strong>roboparty_joystick</strong></a></td><td valign="middle" width="750">RoboParty controller and app.</td></tr>
+</tbody>
 </table>
 
 <details>
-<summary><strong>Robot configurations & 3D asset</strong></summary>
+<summary><strong>Robot configurations</strong></summary>
 
-See the description repository for model files and currently supported configurations.
+See the description repository's current release for supported robot configurations.
 
-| Configuration | Description |
-| :--- | :--- |
-| 24 DoF | 24-DoF configuration |
-| 28 DoF | Fixed-head configuration |
-| 30 DoF | Configuration with a 2-DoF locomotion head |
-| 42 DoF | Configuration with a 2-DoF head and two RPhands |
-
-[Robot description repository](https://github.com/Roboparty/RP1_description) · [Core joint STL](https://github.com/Roboparty/RP1_hardware/blob/main/mechanical/rp1_core_joint.stl)
+Supported configurations include 24, 28, 30 and 42 DoF variants.
 
 </details>
 
-### Supply Chain
+### Software & Systems
 
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-supplychain.svg" alt="Supply-chain know-how: selection, where it is used, gates and acceptance" width="200"></td>
-<td width="150"><a href="https://github.com/Taicushier-0212/rp-supplychain-knowhow"><strong>RP_supplychain</strong></a></td>
-<td width="620">Humanoid supply-chain know-how: what each part is, where it is used, how to choose and inspect it, plus gates and acceptance criteria.</td>
-</tr>
-</table>
-
-### Firmware & Deployment
-
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-firmware.gif" alt="RP1 compute board and IO ports (BSP)" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_firmware"><strong>RP1_firmware</strong></a></td>
-<td width="620">Linux BSP, HPM USB-CAN bridge, low-level SDK and software package sources.</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-deploy.gif" alt="RP1 runtime modules (motor / joint)" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_deploy"><strong>RP1_deploy</strong></a></td>
-<td width="620">RoboParty's in-house SDK, covering runtime modules for <code>imu</code>, <code>motor</code>, <code>dexhand</code>, <code>inference</code> and <code>camera</code>.</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-test.gif" alt="RP1 walking across a raised block obstacle course during full-machine testing" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/rp1_test"><strong>RP1_TEST</strong></a></td>
-<td width="620">RP1 full-machine testing.</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-joystick.gif" alt="RP1 joystick / mobile app robot animation" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/roboparty_joystick"><strong>roboparty_joystick</strong></a></td>
-<td width="620">Controller and mobile app interfaces for RP1.</td>
-</tr>
+<table width="1000">
+<thead>
+<tr><th align="left" width="250">Repository</th><th align="left" width="750">Description</th></tr>
+</thead>
+<tbody>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_deploy"><strong>roboparty_deploy</strong></a></td><td valign="middle" width="750">Runtime SDK for IMU, motor, dexhand, inference and camera modules.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/RP1_description"><strong>RP1_description</strong></a></td><td valign="middle" width="750">URDF, MJCF, 3D assets and robot configurations.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>roboparty_train</strong></a></td><td valign="middle" width="750">Locomotion, motion imitation and behavior foundation models.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/RP1_firmware"><strong>RP1_firmware</strong></a></td><td valign="middle" width="750">Linux BSP, USB-CAN bridge, low-level SDK and packages.</td></tr>
+</tbody>
 </table>
 
 <a id="learning"></a>
 
-### Learning & Behavior
+### Demo
 
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-running.gif" alt="RP1 humanoid running a learned policy" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_train"><strong>RP1_train</strong></a></td>
-<td width="620">Walking and running, motion imitation and behavior foundation models.</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-beyondmimic.gif" alt="RP1 traversing a block obstacle course" width="200"></td>
-<td width="150"><strong>RP1_beyondmimic</strong></td>
-<td width="620">Dance and motion imitation</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-mimiclite.gif" alt="RP1 motion tracking" width="200"></td>
-<td width="150"><strong>RP1_mimiclite</strong></td>
-<td width="620">Motion tracking</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-ufo.gif" alt="RP1 behavior foundation model" width="200"></td>
-<td width="150"><strong>RP1_UFO</strong></td>
-<td width="620">Behavior foundation model</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-data.gif" alt="Humanoid motion-capture training data: many skeletons walking" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/rp1_data"><strong>RP1_DATA</strong></a></td>
-<td width="620">Training datasets.</td>
-</tr>
+<table width="1000">
+<thead>
+<tr><th align="left" width="250">Project</th><th align="left" width="750">Description</th></tr>
+</thead>
+<tbody>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>AMP</strong></a></td><td valign="middle" width="750">Learns motion priors from reference motions through adversarial training, supporting natural-looking locomotion and control.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">Tracks reference motions to reproduce expressive whole-body movements, including dance and motion-imitation sequences.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/MimicLite"><strong>MimicLite</strong></a></td><td valign="middle" width="750">Focuses on reference-motion tracking, translating target movements into coordinated whole-body robot actions.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">Explores a shared behavior foundation for learning and controlling a range of humanoid movements.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">Connects environmental perception with a behavior foundation model to study movement in relation to the surrounding scene.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a></td><td valign="middle" width="750">Focuses on whole-body interaction with the environment, exploring coordinated movements for contact-rich tasks.</td></tr>
+</tbody>
 </table>
 
 <details>
@@ -190,29 +128,6 @@ See the description repository for model files and currently supported configura
 - **Humanoid Parkour** — Fanrong Dong.
 - **INTACT** — imitation-to-intent, amortized CEM, lightweight deployment — Junhan Sun. *ICLR (submission)*
 - **VIStream: Bringing Inertial Sensing to Streaming Geometric Foundation Models** — Mingzhe Liu. *ICRA (submission)*
-
-</details>
-
-<a id="start"></a>
-
-## Build From Here
-
-| Your starting point | Where to go |
-| :--- | :--- |
-| **Understand the platform** | [Documentation & know-how](https://roboparty.com/docs) |
-| **Review the supply chain** | [Component know-how & gates](https://github.com/Taicushier-0212/rp-supplychain-knowhow) |
-| **Build the hardware** | [Design files & assembly](https://github.com/Roboparty/RP1_hardware) · [Joint modules](https://github.com/orgs/Roboparty/teams/romomo) |
-| **Work with robot models** | [URDF, MJCF & 3D assets](https://github.com/Roboparty/RP1_description) |
-| **Connect and deploy** | [Firmware & BSP](https://github.com/Roboparty/RP1_firmware) · [Deployment](https://github.com/Roboparty/RP1_deploy) |
-| **Train and explore motion** | [Locomotion training](https://github.com/Roboparty/RP1_train) · [Motion imitation](https://github.com/Roboparty/RP1_train) |
-
-Contributions belong in the relevant sub-repository. This overview repository does not accept pull requests; please open issues and pull requests in the project you are working on.
-
-<details>
-<summary><strong>Behind the scenes</strong></summary>
-
-<br>
-<img src="assets/readme/rp1-behind-the-scenes.jpg" alt="A camera operator filming RP1 in motion in the studio." width="100%">
 
 </details>
 
@@ -234,9 +149,10 @@ Meet the community, share your work, and connect with RoboParty.
 <h3 align="center">The RoboParty Ecosystem</h3>
 
 <p align="center">
-  <a href="https://github.com/Roboparty/ROMOMO"><img src="assets/readme/romomo-card.jpg" alt="ROMOMO" width="32%"></a>
-  <a href="https://github.com/Roboparty/Party_OS"><img src="https://opengraph.githubassets.com/1/Roboparty/Party_OS" alt="Party_OS" width="32%"></a>
-  <a href="https://github.com/Roboparty/roboto_origin"><img src="https://opengraph.githubassets.com/f44bef10dbc6297cb05885961f85cf827ff0fce1ddd05ab08623bc02f79d338b/Roboparty/roboto_origin" alt="roboto_origin" width="32%"></a>
+  <a href="https://github.com/Roboparty/ROMOMO"><img src="assets/readme/romomo-card.jpg" alt="ROMOMO" width="24%"></a>
+  <a href="https://github.com/Roboparty/Party_OS"><img src="https://opengraph.githubassets.com/1/Roboparty/Party_OS" alt="Party_OS" width="24%"></a>
+  <a href="https://github.com/Roboparty/roboto_origin"><img src="https://opengraph.githubassets.com/f44bef10dbc6297cb05885961f85cf827ff0fce1ddd05ab08623bc02f79d338b/Roboparty/roboto_origin" alt="roboto_origin" width="24%"></a>
+  <a href="https://github.com/Roboparty/human-humanoid-tools"><img src="https://opengraph.githubassets.com/1/Roboparty/human-humanoid-tools" alt="human-humanoid-tools" width="24%"></a>
 </p>
 
 ---
@@ -247,6 +163,6 @@ Meet the community, share your work, and connect with RoboParty.
 </p>
 
 <p align="center">
-  GPL-3.0 &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">Back to top</a><br>
+  <a href="https://roboparty.com/docs">GPL-3.0</a> &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">Back to top</a><br>
   <sub>See each sub-repository for its applicable license.</sub>
 </p>

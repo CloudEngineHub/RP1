@@ -7,11 +7,11 @@
 <a href="https://roboparty.com">
   <picture>
     <source media="(max-width: 640px)" srcset="assets/readme/hero-zh-mobile.jpg">
-    <img src="assets/readme/hero-zh.jpg" alt="RoboParty RP1 全开源人形机器人。从硬件到智能，全栈开放。背景为 RP1 运动实拍。" width="100%">
+    <img src="assets/readme/hero-zh.jpg" alt="RoboParty RP1 全开源人形机器人。" width="100%">
   </picture>
 </a>
 
-<h1 align="center">RP1 · 全开源人形机器人</h1>
+<h1 align="center">RP1: An OpenSource Full-Stack Platform for Agentic Humanoids</h1>
 
 <p align="center">
   从机械、电气到固件、控制与学习，全栈开放。<br>
@@ -19,16 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://roboparty.com"><strong>官网</strong></a> &nbsp; · &nbsp;
-  <a href="https://roboparty.com/docs"><strong>文档</strong></a> &nbsp; · &nbsp;
-  <a href="#repositories"><strong>仓库</strong></a> &nbsp; · &nbsp;
-  <a href="#community"><strong>社区</strong></a>
-</p>
-
-<p align="center">
-  <a href="#learning"><img src="https://img.shields.io/badge/Algorithm-BeyondMimic-2950D9?style=flat-square" alt="算法：BeyondMimic" height="20"></a>
-  <a href="#learning"><img src="https://img.shields.io/badge/Algorithm-MiniCLite-007F86?style=flat-square" alt="算法：MiniCLite" height="20"></a>
-  <a href="#learning"><img src="https://img.shields.io/badge/Algorithm-UFO-27804A?style=flat-square" alt="算法：UFO" height="20"></a>
+  <a href="https://roboparty.com"><img src="https://img.shields.io/badge/官网-RoboParty-2563EB?style=flat-square&labelColor=6B7280" alt="官网：RoboParty"></a>
 </p>
 
 ---
@@ -39,20 +30,16 @@
 
 我们将机械与电气设计、关节模组、固件、机器人模型、部署与学习连接为完整的开发体系。你可以深入研究一个子系统，复刻一台机器人，也可以在此基础上探索自己的控制方式与学习流程。
 
-<table width="100%">
-<tr>
-<td width="33%"><strong>可查阅的硬件</strong></td>
-<td width="33%"><strong>可拓展的软件</strong></td>
-<td width="33%"><strong>可探索的智能</strong></td>
-</tr>
-<tr>
-<td width="33%">机械 CAD、原理图、PCB 走线、Gerber、BOM 与装配文档。</td>
-<td width="33%">Linux BSP、通信、设备接口、机器人描述与部署模块。</td>
-<td width="33%">行走与跑步训练、动作模仿、运动跟踪与行为模型项目。</td>
-</tr>
+<table width="999">
+<thead>
+<tr><th align="left" width="333">可查阅的硬件</th><th align="left" width="333">可拓展的软件</th><th align="left" width="333">可探索的智能</th></tr>
+</thead>
+<tbody>
+<tr><td valign="top" width="333">机械 CAD、原理图、PCB 走线、Gerber、BOM 与装配文档。</td><td valign="top" width="333">Linux BSP、通信、设备接口、机器人描述与部署模块。</td><td valign="top" width="333">行走与跑步训练、动作模仿、运动跟踪与行为模型项目。</td></tr>
+</tbody>
 </table>
 
-<img src="assets/readme/rp1-gallery.gif" alt="RP1 产品实拍，以及在摄影现场跨越高低平台的画面。" width="100%">
+<img src="assets/readme/rp1-box-vault-hq.gif" alt="RP1 翻越箱体实拍" width="100%">
 
 <p align="center"><sub>从机器人本体，到真实世界中的每一步。</sub></p>
 
@@ -63,43 +50,36 @@
 <img src="docs/assets/architecture.svg#gh-light-mode-only" alt="RP1 控制架构：输入 / 感知 → 运控基座（运动重定向、运动策略）→ 实时控制（动作解码 · 串联解算，控制 500 Hz）→ 整机执行（ROMOMO 关节模组 · RP-hand 灵巧手），含急停与高频反馈闭环。" width="100%">
 <img src="docs/assets/architecture-dark.svg#gh-dark-mode-only" alt="RP1 控制架构：输入 / 感知 → 运控基座（运动重定向、运动策略）→ 实时控制（动作解码 · 串联解算，控制 500 Hz）→ 整机执行（ROMOMO 关节模组 · RP-hand 灵巧手），含急停与高频反馈闭环。" width="100%">
 
-**我们拒绝黑盒，没有阉割，所见即所得，把对机器人的绝对控制权完整交还开发者。**
+<p align="center"><strong>我们拒绝黑盒，没有阉割，所见即所得，把对机器人的绝对控制权完整交还开发者</strong></p>
 
 <a id="repositories"></a>
 
 ## 仓库导航
 
 > 具体发布内容、支持配置与安装步骤，以各子仓库维护的信息为准。
+>
+> 欢迎在对应子仓库参与贡献。本首页仓库不受理 PR；请前往相关项目提交 Issue 或 Pull Request。
 
-### 硬件与机器人模型
+### 硬件与工具
 
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-hardware.gif" alt="RP1 机器人本体" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_hardware"><strong>RP1_hardware</strong></a></td>
-<td width="620">机械源文件、电气拓扑、原理图、PCB 走线、Gerber、线束、热管理、测试与 SOP 装配指南。</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-description.gif" alt="16 个人形机器人模型 / 3D 资源" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_description"><strong>RP1_description</strong></a></td>
-<td width="620">机器人描述与几何模型：URDF、MJCF、3D 资源，以及机器人和 RPhand 配置。</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-romomo.gif" alt="ROMOMO 关节模组内部结构" width="200"></td>
-<td width="150"><a href="https://github.com/orgs/Roboparty/teams/romomo"><strong>ROMOMO</strong></a></td>
-<td width="620">关节模组：驱动器原理图、PCB 走线、Gerber、固件与上位机。</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-hand.gif" alt="RP Hand 灵巧手在 RP1 上的快换安装" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/rp_dexhand"><strong>RP-hand</strong></a></td>
-<td width="620">RP Hand 灵巧手：产品与接线手册、CAN-FD 快速上手、Python/C++ SDK 接入、ROS 2 兼容说明及模型与软件资源入口。</td>
-</tr>
+<table width="1000">
+<thead>
+<tr><th align="left" width="250">仓库</th><th align="left" width="750">说明</th></tr>
+</thead>
+<tbody>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp1_hardware"><strong>rp1_hardware</strong></a></td><td valign="middle" width="750">机械源文件、电气拓扑、原理图、PCB 走线、Gerber、线束、热管理、测试与 SOP 装配指南。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/ROMOMO"><strong>ROMOMO</strong></a></td><td valign="middle" width="750">关节模组：驱动器原理图、PCB 走线、Gerber、固件与上位机。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp_dexhand"><strong>RP-hand</strong></a></td><td valign="middle" width="750">灵巧手接线、CAN-FD 通信与 SDK 接入。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp1_test"><strong>RP1_TEST</strong></a></td><td valign="middle" width="750">RP1 整机测试相关内容。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robot_supplychain"><strong>robot_supplychain</strong></a></td><td valign="middle" width="750">面向人形机器人的供应链实践：元器件选型、供应商评估、来料检验、质量 Gate 与验收标准。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_joystick"><strong>roboparty_joystick</strong></a></td><td valign="middle" width="750">RoboParty 手柄与 App。</td></tr>
+</tbody>
 </table>
 
 <details>
-<summary><strong>查看机器人配置与 3D 资源</strong></summary>
+<summary><strong>查看机器人配置</strong></summary>
 
-机器人配置与模型文件，以描述仓库当前发布版本为准。
+机器人配置以描述仓库当前发布版本为准。
 
 | 配置 | 说明 |
 | :--- | :--- |
@@ -108,75 +88,38 @@
 | 30 DoF | 搭载 2 自由度运动头部的配置 |
 | 42 DoF | 搭载 2 自由度头部与双 RPhand 的配置 |
 
-[机器人描述仓库](https://github.com/Roboparty/RP1_description) · [核心关节 STL](https://github.com/Roboparty/RP1_hardware/blob/main/mechanical/rp1_core_joint.stl)
-
 </details>
 
-### 供应链
+### 软件与系统
 
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-supplychain.svg" alt="供应链 Knowhow：选型、用在哪、Gate 与验收" width="200"></td>
-<td width="150"><a href="https://github.com/Taicushier-0212/rp-supplychain-knowhow"><strong>RP_supplychain</strong></a></td>
-<td width="620">人形机器人供应链 Knowhow：元器件是什么、用在哪、怎么选、怎么验，以及 Gate 与验收口径。</td>
-</tr>
-</table>
-
-### 固件与部署
-
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-firmware.gif" alt="RP1 计算板与 IO 端口（BSP）" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_firmware"><strong>RP1_firmware</strong></a></td>
-<td width="620">Linux 底层 BSP、HPM USB-CAN、底层 SDK 与软件包源。</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-deploy.gif" alt="RP1 运行模块（电机 / 关节）" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_deploy"><strong>RP1_deploy</strong></a></td>
-<td width="620">RoboParty 自研 SDK，涵盖 <code>imu</code>、<code>motor</code>、<code>dexhand</code>、<code>inference</code>、<code>camera</code> 等几大运行模块。</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-test.gif" alt="RP1 整机测试：跨越连续台阶与方块路障" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/rp1_test"><strong>RP1_TEST</strong></a></td>
-<td width="620">RP1 整机测试相关内容。</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-joystick.gif" alt="RP1 手柄 / 手机 App 机器人动画" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/roboparty_joystick"><strong>roboparty_joystick</strong></a></td>
-<td width="620">RP1 手柄与手机 App 接口。</td>
-</tr>
+<table width="1000">
+<thead>
+<tr><th align="left" width="250">仓库</th><th align="left" width="750">说明</th></tr>
+</thead>
+<tbody>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_deploy"><strong>roboparty_deploy</strong></a></td><td valign="middle" width="750">RoboParty 自研 SDK，涵盖 <code>imu</code>、<code>motor</code>、<code>dexhand</code>、<code>inference</code>、<code>camera</code> 等几大运行模块。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/RP1_description"><strong>RP1_description</strong></a></td><td valign="middle" width="750">机器人描述与几何模型：URDF、MJCF、3D 资源，以及机器人和 RPhand 配置。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>roboparty_train</strong></a></td><td valign="middle" width="750">行走与跑步、动作模仿与行为基础模型，含 AMP 与 BeyondMimic。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/RP1_firmware"><strong>RP1_firmware</strong></a></td><td valign="middle" width="750">Linux 底层 BSP、HPM USB-CAN、底层 SDK 与软件包源。</td></tr>
+</tbody>
 </table>
 
 <a id="learning"></a>
 
-### 学习与行为
+### Demo
 
-<table width="100%">
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-running.gif" alt="RP1 人形机器人运行学习到的策略" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/RP1_train"><strong>RP1_train</strong></a></td>
-<td width="620">行走与跑步、动作模仿与行为基础模型。</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-beyondmimic.gif" alt="RP1 越障行走" width="200"></td>
-<td width="150"><strong>RP1_beyondmimic</strong></td>
-<td width="620">舞蹈与动作模仿</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-mimiclite.gif" alt="RP1 运动跟踪" width="200"></td>
-<td width="150"><strong>RP1_mimiclite</strong></td>
-<td width="620">运动跟踪</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-ufo.gif" alt="RP1 行为基础模型" width="200"></td>
-<td width="150"><strong>RP1_UFO</strong></td>
-<td width="620">行为基础模型</td>
-</tr>
-<tr>
-<td align="center" width="200"><img src="assets/readme/rp1-data.gif" alt="训练数据集：大量人体动捕骨骼行走数据" width="200"></td>
-<td width="150"><a href="https://github.com/Roboparty/rp1_data"><strong>RP1_DATA</strong></a></td>
-<td width="620">训练数据集。</td>
-</tr>
+<table width="1000">
+<thead>
+<tr><th align="left" width="250">项目</th><th align="left" width="750">说明</th></tr>
+</thead>
+<tbody>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>AMP</strong></a></td><td valign="middle" width="750">通过对抗训练从参考动作中学习运动先验，用于具有自然动作风格的行走与运动控制。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">跟踪参考动作并复现丰富的全身运动，展示舞蹈、动作模仿等连续运动序列。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/MimicLite"><strong>MimicLite</strong></a></td><td valign="middle" width="750">面向参考动作跟踪，将目标运动转化为机器人协调的全身动作，展示运动复现能力。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">探索多种人形机器人运动共享的行为基础模型，为不同动作的学习与控制提供统一基础。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">将环境感知与行为基础模型结合，探索机器人根据周围场景信息进行运动控制的能力。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a></td><td valign="middle" width="750">面向机器人与环境的全身交互，探索接触任务中的动作协调，展示翻越箱体等交互动作。</td></tr>
+</tbody>
 </table>
 
 <details>
@@ -190,29 +133,6 @@
 - **Humanoid Parkour** — Fanrong Dong.
 - **INTACT** — imitation-to-intent, amortized CEM, lightweight deployment — Junhan Sun. *ICLR (submission)*
 - **VIStream: Bringing Inertial Sensing to Streaming Geometric Foundation Models** — Mingzhe Liu. *ICRA (submission)*
-
-</details>
-
-<a id="start"></a>
-
-## 从这里开始
-
-| 你想做什么 | 推荐入口 |
-| :--- | :--- |
-| **了解平台** | [开发文档与 Know-how](https://roboparty.com/docs) |
-| **看供应链** | [元器件 Knowhow 与 Gate](https://github.com/Taicushier-0212/rp-supplychain-knowhow) |
-| **构建硬件** | [设计文件与装配](https://github.com/Roboparty/RP1_hardware) · [关节模组](https://github.com/orgs/Roboparty/teams/romomo) |
-| **使用机器人模型** | [URDF、MJCF 与 3D 资源](https://github.com/Roboparty/RP1_description) |
-| **连接与部署** | [固件与 BSP](https://github.com/Roboparty/RP1_firmware) · [运行部署](https://github.com/Roboparty/RP1_deploy) |
-| **训练与探索动作** | [运动训练](https://github.com/Roboparty/RP1_train) · [动作模仿](https://github.com/Roboparty/RP1_train) |
-
-欢迎在对应子仓库参与贡献。本首页仓库不受理 PR；请前往相关项目提交 Issue 或 Pull Request。
-
-<details>
-<summary><strong>镜头背后</strong></summary>
-
-<br>
-<img src="assets/readme/rp1-behind-the-scenes.jpg" alt="摄影师在影棚跟拍运动中的 RP1。" width="100%">
 
 </details>
 
@@ -234,9 +154,10 @@
 <h3 align="center">RoboParty 生态</h3>
 
 <p align="center">
-  <a href="https://github.com/Roboparty/ROMOMO"><img src="assets/readme/romomo-card.jpg" alt="ROMOMO" width="32%"></a>
-  <a href="https://github.com/Roboparty/Party_OS"><img src="https://opengraph.githubassets.com/1/Roboparty/Party_OS" alt="Party_OS" width="32%"></a>
-  <a href="https://github.com/Roboparty/roboto_origin"><img src="https://opengraph.githubassets.com/f44bef10dbc6297cb05885961f85cf827ff0fce1ddd05ab08623bc02f79d338b/Roboparty/roboto_origin" alt="roboto_origin" width="32%"></a>
+  <a href="https://github.com/Roboparty/ROMOMO"><img src="assets/readme/romomo-card.jpg" alt="ROMOMO" width="24%"></a>
+  <a href="https://github.com/Roboparty/Party_OS"><img src="https://opengraph.githubassets.com/1/Roboparty/Party_OS" alt="Party_OS" width="24%"></a>
+  <a href="https://github.com/Roboparty/roboto_origin"><img src="https://opengraph.githubassets.com/f44bef10dbc6297cb05885961f85cf827ff0fce1ddd05ab08623bc02f79d338b/Roboparty/roboto_origin" alt="roboto_origin" width="24%"></a>
+  <a href="https://github.com/Roboparty/human-humanoid-tools"><img src="https://opengraph.githubassets.com/1/Roboparty/human-humanoid-tools" alt="human-humanoid-tools" width="24%"></a>
 </p>
 
 ---
@@ -247,6 +168,6 @@
 </p>
 
 <p align="center">
-  GPL-3.0 &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">返回顶部</a><br>
+  <a href="https://roboparty.com/docs">GPL-3.0</a> &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">返回顶部</a><br>
   <sub>各子仓库的适用许可证以其自身声明为准。</sub>
 </p>
