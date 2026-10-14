@@ -20,6 +20,8 @@
 
 <p align="center">
   <a href="https://roboparty.com"><img src="https://img.shields.io/badge/官网-RoboParty-2563EB?style=flat-square&labelColor=6B7280" alt="官网：RoboParty"></a>
+  <a href="https://lab.roboparty.com/"><img src="https://img.shields.io/badge/Lab-RoboParty-2563EB?style=flat-square&labelColor=6B7280" alt="Lab: RoboParty"></a>
+  <a href="https://github.com/Roboparty/Party_OS"><img src="https://img.shields.io/badge/GitHub-Party_OS-2563EB?style=flat-square&labelColor=6B7280" alt="GitHub: Party_OS"></a>
 </p>
 
 ---
@@ -119,20 +121,19 @@
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">探索多种人形机器人运动共享的行为基础模型，为不同动作的学习与控制提供统一基础。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">将环境感知与行为基础模型结合，探索机器人根据周围场景信息进行运动控制的能力。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a></td><td valign="middle" width="750">面向机器人与环境的全身交互，探索接触任务中的动作协调，展示翻越箱体等交互动作。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/INTACT-JEPA"><strong>INTACT-JEPA</strong></a></td><td valign="middle" width="750">基于 JEPA 学习意图到动作的映射，将视觉目标转化为控制动作，无需在线搜索。</td></tr>
 </tbody>
 </table>
 
 <details>
 <summary><strong>相关论文</strong></summary>
 
-- **P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning** — Xue Wang, Yitang Li, Yiming Zhang, Siqin Wang, Junhan Sun, Zhihao Liu, Yaojie Shen, Jingbo Yuan, Hao Zhao, Qingdu Li. *ICLR 2027 (submission)*
-- **I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning** — Ziqi Han. *ICRA (submission)*
-- **MimicAll: Structured Embodiment Conditioning for Cross-Humanoid Whole-Body Motion Tracking** — Jia Li. *ICLR (submission)*
-- **PREDACTOR** — action-level diffusion for on-device humanoid control — Lei Ye. *ICRA (submission)*
-- **From Hitter to Player: Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis** — Fanrong Dong. *ICRA (submission)*
-- **Humanoid Parkour** — Fanrong Dong.
-- **INTACT** — imitation-to-intent, amortized CEM, lightweight deployment — Junhan Sun. *ICLR (submission)*
-- **VIStream: Bringing Inertial Sensing to Streaming Geometric Foundation Models** — Mingzhe Liu. *ICRA (submission)*
+- **[P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning](https://arxiv.org/abs/2610.15833)** — Xue Wang, Yitang Li, Yiming Zhang, Siqin Wang, Junhan Sun, Zhihao Liu, Yaojie Shen, Jingbo Yuan, Hao Zhao, Qingdu Li. *ICLR 2027*
+- **[I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning](https://arxiv.org/abs/2610.06129)** — Ziqi Han, Yitang Li, Junhan Sun, Fanrong Dong, Yaojie Shen, Lei Ye, Zetong Jing, Yongqi Zhang, Yiming Zhang, Xue Wang, Hao Zhao. *ICRA*
+- **[PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control](https://arxiv.org/abs/2609.24840)** — Lei Ye, Haibo Gao, Yitang Li, Peng Xu, Zetong Jing, Junhan Sun, Fanrong Dong, Ziqi Han, Xue Wang, Jianhua Sun, Cewu Lu, Hao Zhao, Liang Ding. *ICRA*
+- **[From Hitter to Player: Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis](https://arxiv.org/abs/2610.14067)** — Fanrong Dong, Ziyi Sun, Ziqi Han, Junhan Sun, Lei Ye, Zetong Jing, Hao Zhao, Shaoxun Liu, Rongrong Wang. *ICRA*
+- **[INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models](https://arxiv.org/abs/2607.26056)** — Junhan Sun, Hao Zhao, Guofeng Zhang. *ICLR*
+- **[VIStream: Bringing Inertial Sensing to Streaming Geometric Foundation Models](https://github.com/CN-MingZheLiu/vistream)** — Mingzhe Liu. *ICRA*
 
 </details>
 
