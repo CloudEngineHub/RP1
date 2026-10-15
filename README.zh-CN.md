@@ -110,6 +110,8 @@
 
 ### Demo
 
+> Coming soon.
+
 <table width="1000">
 <thead>
 <tr><th align="left" width="250">项目</th><th align="left" width="750">说明</th></tr>
@@ -145,17 +147,15 @@
 
 <p align="center">
   <a href="https://qm.qq.com/q/546376843"><img src="https://img.shields.io/badge/QQ-546376843-12B7F5?style=flat-square&logo=tencentqq&logoColor=white" alt="QQ 群：546376843" height="24"></a>
-  <a href="https://t.me/roboparty"><img src="https://img.shields.io/badge/Telegram-roboparty-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram：roboparty" height="24"></a>
-  <a href="https://x.com/roboparty"><img src="https://img.shields.io/badge/X-%40roboparty-181818?style=flat-square&logo=x&logoColor=white" alt="X：@roboparty" height="24"></a>
-  <a href="https://roboparty.com/wechat"><img src="https://img.shields.io/badge/WeChat-roboparty-07C160?style=flat-square&logo=wechat&logoColor=white" alt="微信：roboparty" height="24"></a>
-  <a href="https://discord.gg/DTcW6rR3Xa"><img src="https://img.shields.io/badge/Discord-roboparty-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord：roboparty" height="24"></a>
+  <a href="https://x.com/RoboParty_DEV"><img src="https://img.shields.io/badge/X-%40RoboParty_DEV-181818?style=flat-square&logo=x&logoColor=white" alt="X：@RoboParty_DEV" height="24"></a>
+  <a href="https://discord.gg/V35Se8bNd"><img src="https://img.shields.io/badge/Discord-roboparty-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord：roboparty" height="24"></a>
   <a href="https://space.bilibili.com/3546938634930456"><img src="https://img.shields.io/badge/Bilibili-roboparty-00A1D6?style=flat-square&logo=bilibili&logoColor=white" alt="哔哩哔哩：roboparty" height="24"></a>
 </p>
 
 <h3 align="center">RoboParty 生态</h3>
 
 <p align="center">
-  <a href="https://github.com/Roboparty/ROMOMO"><img src="assets/readme/romomo-card.jpg" alt="ROMOMO" width="24%"></a>
+  <a href="https://github.com/Roboparty/ROMOMO"><img src="https://opengraph.githubassets.com/1/Roboparty/ROMOMO" alt="ROMOMO" width="24%"></a>
   <a href="https://github.com/Roboparty/Party_OS"><img src="https://opengraph.githubassets.com/1/Roboparty/Party_OS" alt="Party_OS" width="24%"></a>
   <a href="https://github.com/Roboparty/roboto_origin"><img src="https://opengraph.githubassets.com/f44bef10dbc6297cb05885961f85cf827ff0fce1ddd05ab08623bc02f79d338b/Roboparty/roboto_origin" alt="roboto_origin" width="24%"></a>
   <a href="https://github.com/Roboparty/human-humanoid-tools"><img src="https://opengraph.githubassets.com/1/Roboparty/human-humanoid-tools" alt="human-humanoid-tools" width="24%"></a>
