@@ -6,8 +6,8 @@
 
 <a href="https://roboparty.com">
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/readme/hero-zh-mobile.jpg">
-    <img src="assets/readme/hero-zh.jpg" alt="RoboParty RP1 全开源人形机器人。" width="100%">
+    <source media="(max-width: 640px)" srcset="assets/hero-zh-mobile.jpg">
+    <img src="assets/hero-zh.jpg" alt="RoboParty RP1 全开源人形机器人。" width="100%">
   </picture>
 </a>
 
@@ -41,7 +41,7 @@
 </tbody>
 </table>
 
-<img src="assets/readme/rp1-box-vault-hq.gif" alt="RP1 翻越箱体实拍" width="100%">
+<img src="assets/rp1-box-vault-hq.gif" alt="RP1 翻越箱体实拍" width="100%">
 
 <p align="center"><sub>从机器人本体，到真实世界中的每一步。</sub></p>
 
@@ -49,8 +49,8 @@
 
 ## 一台机器人，完整的开放体系
 
-<img src="docs/assets/architecture.svg#gh-light-mode-only" alt="RP1 控制架构：输入 / 感知 → 运控基座（运动重定向、运动策略）→ 实时控制（动作解码 · 串联解算，控制 500 Hz）→ 整机执行（ROMOMO 关节模组 · RP-hand 灵巧手），含急停与高频反馈闭环。" width="100%">
-<img src="docs/assets/architecture-dark.svg#gh-dark-mode-only" alt="RP1 控制架构：输入 / 感知 → 运控基座（运动重定向、运动策略）→ 实时控制（动作解码 · 串联解算，控制 500 Hz）→ 整机执行（ROMOMO 关节模组 · RP-hand 灵巧手），含急停与高频反馈闭环。" width="100%">
+<img src="assets/architecture.svg#gh-light-mode-only" alt="RP1 控制架构：输入 / 感知 → 运控基座（运动重定向、运动策略）→ 实时控制（动作解码 · 串联解算，控制 500 Hz）→ 整机执行（ROMOMO 关节模组 · RP-hand 灵巧手），含急停与高频反馈闭环。" width="100%">
+<img src="assets/architecture-dark.svg#gh-dark-mode-only" alt="RP1 控制架构：输入 / 感知 → 运控基座（运动重定向、运动策略）→ 实时控制（动作解码 · 串联解算，控制 500 Hz）→ 整机执行（ROMOMO 关节模组 · RP-hand 灵巧手），含急停与高频反馈闭环。" width="100%">
 
 <p align="center"><strong>我们拒绝黑盒，没有阉割，所见即所得，把对机器人的绝对控制权完整交还开发者</strong></p>
 
@@ -147,6 +147,7 @@
 
 <p align="center">
   <a href="https://qm.qq.com/q/546376843"><img src="https://img.shields.io/badge/QQ-546376843-12B7F5?style=flat-square&logo=tencentqq&logoColor=white" alt="QQ 群：546376843" height="24"></a>
+  <a href="assets/wechat.jpg"><img src="https://img.shields.io/badge/WeChat-RP1-07C160?style=flat-square&logo=wechat&logoColor=white" alt="微信：RP1 交流群二维码" height="24"></a>
   <a href="https://x.com/RoboParty_DEV"><img src="https://img.shields.io/badge/X-%40RoboParty_DEV-181818?style=flat-square&logo=x&logoColor=white" alt="X：@RoboParty_DEV" height="24"></a>
   <a href="https://discord.gg/V35Se8bNd"><img src="https://img.shields.io/badge/Discord-roboparty-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord：roboparty" height="24"></a>
   <a href="https://space.bilibili.com/3546938634930456"><img src="https://img.shields.io/badge/Bilibili-roboparty-00A1D6?style=flat-square&logo=bilibili&logoColor=white" alt="哔哩哔哩：roboparty" height="24"></a>
@@ -169,6 +170,6 @@
 </p>
 
 <p align="center">
-  <a href="https://roboparty.com/docs">GPL-3.0</a> &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">返回顶部</a><br>
+  <a href="LICENSE">GPL-3.0</a> &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">返回顶部</a><br>
   <sub>各子仓库的适用许可证以其自身声明为准。</sub>
 </p>

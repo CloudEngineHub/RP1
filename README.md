@@ -6,8 +6,8 @@
 
 <a href="https://roboparty.com">
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/readme/hero-en-mobile.jpg">
-    <img src="assets/readme/hero-en.jpg" alt="RoboParty RP1. Fully open-source humanoid platform." width="100%">
+    <source media="(max-width: 640px)" srcset="assets/hero-en-mobile.jpg">
+    <img src="assets/hero-en.jpg" alt="RoboParty RP1. Fully open-source humanoid platform." width="100%">
   </picture>
 </a>
 
@@ -41,7 +41,7 @@ The platform brings mechanical and electrical design, joint modules, firmware, r
 </tbody>
 </table>
 
-<img src="assets/readme/rp1-box-vault-hq.gif" alt="RP1 vaulting over a box" width="100%">
+<img src="assets/rp1-box-vault-hq.gif" alt="RP1 vaulting over a box" width="100%">
 
 <p align="center"><sub>RP1, photographed in the real world.</sub></p>
 
@@ -49,8 +49,8 @@ The platform brings mechanical and electrical design, joint modules, firmware, r
 
 ## One Robot. A Connected Stack.
 
-<img src="docs/assets/architecture-en.svg#gh-light-mode-only" alt="RP1 control architecture: input / perception → motion control base (motion retargeting, motion policies) → real-time control (action decoding + serial-link solving at 500 Hz) → whole-body execution (ROMOMO joint modules, RP-hand), with an E-stop and a high-frequency feedback loop." width="100%">
-<img src="docs/assets/architecture-en-dark.svg#gh-dark-mode-only" alt="RP1 control architecture: input / perception → motion control base (motion retargeting, motion policies) → real-time control (action decoding + serial-link solving at 500 Hz) → whole-body execution (ROMOMO joint modules, RP-hand), with an E-stop and a high-frequency feedback loop." width="100%">
+<img src="assets/architecture-en.svg#gh-light-mode-only" alt="RP1 control architecture: input / perception → motion control base (motion retargeting, motion policies) → real-time control (action decoding + serial-link solving at 500 Hz) → whole-body execution (ROMOMO joint modules, RP-hand), with an E-stop and a high-frequency feedback loop." width="100%">
+<img src="assets/architecture-en-dark.svg#gh-dark-mode-only" alt="RP1 control architecture: input / perception → motion control base (motion retargeting, motion policies) → real-time control (action decoding + serial-link solving at 500 Hz) → whole-body execution (ROMOMO joint modules, RP-hand), with an E-stop and a high-frequency feedback loop." width="100%">
 
 <p align="center"><strong>No black boxes, nothing withheld — full control handed back to the developer</strong></p>
 
@@ -142,6 +142,7 @@ Meet the community, share your work, and connect with RoboParty.
 
 <p align="center">
   <a href="https://qm.qq.com/q/546376843"><img src="https://img.shields.io/badge/QQ-546376843-12B7F5?style=flat-square&logo=tencentqq&logoColor=white" alt="QQ group 546376843" height="24"></a>
+  <a href="assets/wechat.jpg"><img src="https://img.shields.io/badge/WeChat-RP1-07C160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat: RP1 community QR code" height="24"></a>
   <a href="https://x.com/RoboParty_DEV"><img src="https://img.shields.io/badge/X-%40RoboParty_DEV-181818?style=flat-square&logo=x&logoColor=white" alt="X: @RoboParty_DEV" height="24"></a>
   <a href="https://discord.gg/V35Se8bNd"><img src="https://img.shields.io/badge/Discord-roboparty-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord: roboparty" height="24"></a>
   <a href="https://space.bilibili.com/3546938634930456"><img src="https://img.shields.io/badge/Bilibili-roboparty-00A1D6?style=flat-square&logo=bilibili&logoColor=white" alt="Bilibili: roboparty" height="24"></a>
@@ -164,6 +165,6 @@ Meet the community, share your work, and connect with RoboParty.
 </p>
 
 <p align="center">
-  <a href="https://roboparty.com/docs">GPL-3.0</a> &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">Back to top</a><br>
+  <a href="LICENSE">GPL-3.0</a> &nbsp; · &nbsp; © <a href="https://roboparty.com">RoboParty</a> &nbsp; · &nbsp; <a href="#top">Back to top</a><br>
   <sub>See each sub-repository for its applicable license.</sub>
 </p>
