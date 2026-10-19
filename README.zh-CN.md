@@ -71,7 +71,7 @@
 <tbody>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp1_hardware"><strong>rp1_hardware</strong></a></td><td valign="middle" width="750">机械源文件、电气拓扑、原理图、PCB 走线、Gerber、线束、热管理、测试与 SOP 装配指南。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/ROMOMO"><strong>ROMOMO</strong></a></td><td valign="middle" width="750">关节模组：驱动器原理图、PCB 走线、Gerber、固件与上位机。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp_dexhand"><strong>RP-hand</strong></a></td><td valign="middle" width="750">灵巧手接线、CAN-FD 通信与 SDK 接入。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp_dexhand"><strong>RP Hand</strong></a></td><td valign="middle" width="750">灵巧手产品资料、接线、配套软件、CAD 与机器人模型，提供 C++ / Python / ROS 2 SDK 入口。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp1_test"><strong>RP1_TEST</strong></a></td><td valign="middle" width="750">RP1 整机测试相关内容。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robot_supplychain"><strong>robot_supplychain</strong></a></td><td valign="middle" width="750">面向人形机器人的供应链实践：元器件选型、供应商评估、来料检验、质量 Gate 与验收标准。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_joystick"><strong>roboparty_joystick</strong></a></td><td valign="middle" width="750">RoboParty 手柄与 App。</td></tr>
