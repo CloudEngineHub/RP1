@@ -146,11 +146,13 @@
 交流开发经验，分享你的项目，与 RoboParty 社区一起探索。
 
 <p align="center">
+  <a href="https://roboparty.com"><img src="https://img.shields.io/badge/Website-RoboParty-2563EB?style=flat-square&labelColor=6B7280" alt="Website: RoboParty" height="24"></a>
   <a href="https://qm.qq.com/q/546376843"><img src="https://img.shields.io/badge/QQ-546376843-12B7F5?style=flat-square&logo=tencentqq&logoColor=white" alt="QQ 群：546376843" height="24"></a>
   <a href="assets/wechat.jpg"><img src="https://img.shields.io/badge/WeChat-RP1-07C160?style=flat-square&logo=wechat&logoColor=white" alt="微信：RP1 交流群二维码" height="24"></a>
   <a href="https://x.com/RoboParty_DEV"><img src="https://img.shields.io/badge/X-%40RoboParty_DEV-181818?style=flat-square&logo=x&logoColor=white" alt="X：@RoboParty_DEV" height="24"></a>
   <a href="https://discord.gg/V35Se8bNd"><img src="https://img.shields.io/badge/Discord-roboparty-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord：roboparty" height="24"></a>
-  <a href="https://space.bilibili.com/3546938634930456"><img src="https://img.shields.io/badge/Bilibili-roboparty-00A1D6?style=flat-square&logo=bilibili&logoColor=white" alt="哔哩哔哩：roboparty" height="24"></a>
+  <a href="https://t.me/RoboParty_channel1"><img src="https://img.shields.io/badge/Telegram-RoboParty-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram：RoboParty_channel1" height="24"></a>
+  <a href="https://space.bilibili.com/3546938634930456"><img src="https://img.shields.io/badge/Bilibili-roboparty-FB7299?style=flat-square&logo=bilibili&logoColor=white" alt="哔哩哔哩：roboparty" height="24"></a>
 </p>
 
 <h3 align="center">RoboParty 生态</h3>
