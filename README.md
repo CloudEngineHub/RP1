@@ -73,7 +73,6 @@ The platform brings mechanical and electrical design, joint modules, firmware, r
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/ROMOMO"><strong>ROMOMO</strong></a></td><td valign="middle" width="750">Joint modules, firmware and host tools.</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp_dexhand"><strong>RP Hand</strong></a></td><td valign="middle" width="750">Dexterous hand product documentation, wiring, companion applications, CAD and robot models. Includes the C++ / Python / ROS 2 SDK entry point.</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/rp1_test"><strong>RP1_TEST</strong></a></td><td valign="middle" width="750">RP1 full-machine testing.</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robot_supplychain"><strong>robot_supplychain</strong></a></td><td valign="middle" width="750">Component selection, inspection, quality gates and acceptance.</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_joystick"><strong>roboparty_joystick</strong></a></td><td valign="middle" width="750">RoboParty controller and app.</td></tr>
 </tbody>
 </table>
