@@ -105,8 +105,6 @@ Supported configurations include 24, 28, 30 and 42 DoF variants.
 
 ### Demo
 
-> Coming soon.
-
 <table width="1000">
 <thead>
 <tr><th align="left" width="250">Project</th><th align="left" width="750">Description</th></tr>
@@ -114,12 +112,12 @@ Supported configurations include 24, 28, 30 and 42 DoF variants.
 <tbody>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/amp"><strong>AMP</strong></a></td><td valign="middle" width="750">Learns motion priors from reference motions through adversarial training, supporting natural-looking locomotion and control.</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/beyondmimic"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">Tracks reference motions to reproduce expressive whole-body movements, including dance and motion-imitation sequences.</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/parkour"><strong>Parkour</strong></a></td><td valign="middle" width="750">Learns perceptive locomotion policies to traverse challenging terrain, including stairs, gaps and obstacles.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/parkour"><strong>Parkour</strong></a> <em>(RP1 support coming soon)</em></td><td valign="middle" width="750">Learns perceptive locomotion policies to traverse challenging terrain, including stairs, gaps and obstacles.</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/MimicLite"><strong>MimicLite</strong></a></td><td valign="middle" width="750">Focuses on reference-motion tracking, translating target movements into coordinated whole-body robot actions.</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">Explores a shared behavior foundation for learning and controlling a range of humanoid movements.</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">Connects environmental perception with a behavior foundation model to study movement in relation to the surrounding scene.</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a></td><td valign="middle" width="750">Focuses on whole-body interaction with the environment, exploring coordinated movements for contact-rich tasks.</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/INTACT-JEPA"><strong>INTACT-JEPA</strong></a></td><td valign="middle" width="750">Learns an intent-to-action mapping with JEPA, translating visual goals into control actions without online search.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a> <em>(RP1 support coming soon)</em></td><td valign="middle" width="750">Focuses on whole-body interaction with the environment, exploring coordinated movements for contact-rich tasks.</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/INTACT-JEPA"><strong>INTACT-JEPA</strong></a> <em>(RP1 support coming soon)</em></td><td valign="middle" width="750">Learns an intent-to-action mapping with JEPA, translating visual goals into control actions without online search.</td></tr>
 </tbody>
 </table>
 

@@ -110,8 +110,6 @@
 
 ### Demo
 
-> Coming soon.
-
 <table width="1000">
 <thead>
 <tr><th align="left" width="250">项目</th><th align="left" width="750">说明</th></tr>
@@ -119,12 +117,12 @@
 <tbody>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/amp"><strong>AMP</strong></a></td><td valign="middle" width="750">通过对抗训练从参考动作中学习运动先验，用于具有自然动作风格的行走与运动控制。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/beyondmimic"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">跟踪参考动作并复现丰富的全身运动，展示舞蹈、动作模仿等连续运动序列。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/parkour"><strong>Parkour</strong></a></td><td valign="middle" width="750">学习感知驱动的运动控制策略，可跨越台阶、沟壑与障碍等复杂地形。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/parkour"><strong>Parkour</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">学习感知驱动的运动控制策略，可跨越台阶、沟壑与障碍等复杂地形。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/MimicLite"><strong>MimicLite</strong></a></td><td valign="middle" width="750">面向参考动作跟踪，将目标运动转化为机器人协调的全身动作，展示运动复现能力。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">探索多种人形机器人运动共享的行为基础模型，为不同动作的学习与控制提供统一基础。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">将环境感知与行为基础模型结合，探索机器人根据周围场景信息进行运动控制的能力。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a></td><td valign="middle" width="750">面向机器人与环境的全身交互，探索接触任务中的动作协调，展示翻越箱体等交互动作。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/INTACT-JEPA"><strong>INTACT-JEPA</strong></a></td><td valign="middle" width="750">基于 JEPA 学习意图到动作的映射，将视觉目标转化为控制动作，无需在线搜索。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">面向机器人与环境的全身交互，探索接触任务中的动作协调，展示翻越箱体等交互动作。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/INTACT-JEPA"><strong>INTACT-JEPA</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">基于 JEPA 学习意图到动作的映射，将视觉目标转化为控制动作，无需在线搜索。</td></tr>
 </tbody>
 </table>
 
