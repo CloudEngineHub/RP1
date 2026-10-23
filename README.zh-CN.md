@@ -98,9 +98,9 @@
 <tr><th align="left" width="250">仓库</th><th align="left" width="750">说明</th></tr>
 </thead>
 <tbody>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_deploy"><strong>roboparty_deploy</strong></a></td><td valign="middle" width="750">RoboParty 自研 SDK，涵盖 <code>imu</code>、<code>motor</code>、<code>dexhand</code>、<code>inference</code>、<code>camera</code> 等几大运行模块。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/RP1_description"><strong>RP1_description</strong></a></td><td valign="middle" width="750">机器人描述与几何模型：URDF、MJCF、3D 资源，以及机器人和 RPhand 配置。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>roboparty_train</strong></a></td><td valign="middle" width="750">行走与跑步、动作模仿与行为基础模型，含 AMP 与 BeyondMimic。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_deploy"><strong>roboparty_deploy</strong></a></td><td valign="middle" width="750">面向 RPO 与 RP1 的部署框架，提供 <code>imu</code>、<code>motor</code>、<code>inference</code>、<code>camera</code> 等易用 SDK，支持 C++ 与 Python 调用。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/RP1_description"><strong>RP1_description</strong></a></td><td valign="middle" width="750">URDF 与 MJCF 模型、3D 网格资源，以及机器人与 RP Hand 配置。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/roboparty_train"><strong>roboparty_train</strong></a></td><td valign="middle" width="750">基于 Isaac Lab 的 RPO 运动策略训练工作区，涵盖 AMP、BeyondMimic 与 Parkour 工作流，以及 RSL-RL 训练和动作重定向。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/RP1_firmware"><strong>RP1_firmware</strong></a></td><td valign="middle" width="750">Linux 底层 BSP、HPM USB-CAN、底层 SDK 与软件包源。</td></tr>
 </tbody>
 </table>
@@ -114,14 +114,14 @@
 <tr><th align="left" width="250">项目</th><th align="left" width="750">说明</th></tr>
 </thead>
 <tbody>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/amp"><strong>AMP</strong></a></td><td valign="middle" width="750">通过对抗训练从参考动作中学习运动先验，用于具有自然动作风格的行走与运动控制。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/beyondmimic"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">跟踪参考动作并复现丰富的全身运动，展示舞蹈、动作模仿等连续运动序列。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/amp"><strong>AMP</strong></a></td><td valign="middle" width="750">通过对抗训练从参考动作中学习运动先验，实现自然流畅的行走与运动控制。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/beyondmimic"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">跟踪参考动作以复现富有表现力的全身运动，包括舞蹈与动作模仿序列。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/parkour"><strong>Parkour</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">学习感知驱动的运动控制策略，可跨越台阶、沟壑与障碍等复杂地形。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/MimicLite"><strong>MimicLite</strong></a></td><td valign="middle" width="750">面向参考动作跟踪，将目标运动转化为机器人协调的全身动作，展示运动复现能力。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">探索多种人形机器人运动共享的行为基础模型，为不同动作的学习与控制提供统一基础。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">将环境感知与行为基础模型结合，探索机器人根据周围场景信息进行运动控制的能力。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">面向机器人与环境的全身交互，探索接触任务中的动作协调，展示翻越箱体等交互动作。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/INTACT-JEPA"><strong>INTACT-JEPA</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">基于 JEPA 学习意图到动作的映射，将视觉目标转化为控制动作，无需在线搜索。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/MimicLite"><strong>MimicLite</strong></a></td><td valign="middle" width="750">提供高效、通用的人形运动跟踪系统，用于训练可部署的 PPO 与 PPO-ROA 策略。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">提供面向人形控制的通用无监督强化学习框架，支持 FB/TeCH 训练、运动跟踪以及奖励与目标推断。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">将参考动作、目标身体状态与奖励函数映射到共享的行为意图空间，并结合深度感知实现地形自适应控制。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/I-BFM-Code"><strong>IBFM</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">通过无监督强化学习实现奖励条件驱动的鲁棒人形交互，展示搬运、推箱与踢箱等任务。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/INTACT-JEPA"><strong>INTACT-JEPA</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">基于 JEPA 学习意图到动作的映射，实现无需大范围动作搜索的目标条件机器人控制。</td></tr>
 </tbody>
 </table>
 
