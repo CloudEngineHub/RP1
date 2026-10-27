@@ -114,9 +114,9 @@
 <tr><th align="left" width="250">项目</th><th align="left" width="750">说明</th></tr>
 </thead>
 <tbody>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/amp"><strong>AMP</strong></a></td><td valign="middle" width="750">通过对抗训练从参考动作中学习运动先验，实现自然流畅的行走与运动控制。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/beyondmimic"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">跟踪参考动作以复现富有表现力的全身运动，包括舞蹈与动作模仿序列。</td></tr>
-<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/6b1c3d9988497c8961dcba77892de32edc1770e1/robolab/tasks/manager_based/parkour"><strong>Parkour</strong></a> <em>（即将支持 RP1）</em></td><td valign="middle" width="750">学习感知驱动的运动控制策略，可跨越台阶、沟壑与障碍等复杂地形。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/master/robolab/tasks/manager_based/amp"><strong>AMP</strong></a></td><td valign="middle" width="750">通过对抗训练从参考动作中学习运动先验，实现自然流畅的行走与运动控制。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/master/robolab/tasks/manager_based/beyondmimic"><strong>BeyondMimic</strong></a></td><td valign="middle" width="750">跟踪参考动作以复现富有表现力的全身运动，包括舞蹈与动作模仿序列。</td></tr>
+<tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/robolab/tree/master/robolab/tasks/manager_based/parkour"><strong>Parkour</strong></a></td><td valign="middle" width="750">学习感知驱动的运动控制策略，可跨越台阶、沟壑与障碍等复杂地形。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/MimicLite"><strong>MimicLite</strong></a></td><td valign="middle" width="750">提供高效、通用的人形运动跟踪系统，用于训练可部署的 PPO 与 PPO-ROA 策略。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/UFO"><strong>UFO</strong></a></td><td valign="middle" width="750">提供面向人形控制的通用无监督强化学习框架，支持 FB/TeCH 训练、运动跟踪以及奖励与目标推断。</td></tr>
 <tr height="56"><td valign="middle" width="250"><a href="https://github.com/Roboparty/P-BFM"><strong>PBFM</strong></a></td><td valign="middle" width="750">将参考动作、目标身体状态与奖励函数映射到共享的行为意图空间，并结合深度感知实现地形自适应控制。</td></tr>
